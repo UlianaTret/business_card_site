@@ -1,0 +1,302 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, button, span {
+    font-family: Gilroy, Serif;
+}
+
+button {
+    border-width: 0;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+}
+
+.page-content {
+    width: 1120px;
+}
+
+li {
+    list-style-type: none;
+    padding: 8px;
+}
+
+
+.menu, .left-menu, .right-menu, .middle-menu {
+    display: flex;
+    flex-direction: row;
+}
+
+.menu {
+    justify-content: space-between;
+}
+
+.img-star {
+    position: relative;
+    top: -30px;
+    right: 30px;
+    width: 17px;
+    height: auto;
+}
+
+.menu .button {
+    height: 55px;
+}
+
+.middle-menu .button .active-btn__name {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #313131;
+}
+
+.active-line {
+    width: 78px;
+    height: 3px;
+    background: #8B63FF;
+}
+
+.middle-menu .button {
+    margin-right: auto; /*25px;*/
+    width: fit-content;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.middle-menu .button span {
+    font-family: 'Gilroy';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #8B8B8B;
+}
+
+.right-menu__log {
+    border: 1px solid #313131;
+    border-radius: 255px;
+}
+
+.right-menu__log span, .right-menu__registration span {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #313131;
+    padding: 0 30px;
+}
+
+.right-menu__registration {
+    background: #8B63FF;
+    border-radius: 255px;
+}
+
+.right-menu__registration span {
+    color: #FFFFFF;
+}
+
+.content, .study-content, .level-study, .statistics-company {
+    display: flex;
+    flex-direction: row;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+}
+
+.good-warning {
+    display: flex;
+    flex-direction: row;
+    font-weight: 400;
+    line-height: 64px;
+    color: #8B8B8B;
+}
+
+.decoration-line {
+    position: relative;
+    top: 50%;
+    transform: translate(0, 50%);
+    width: 49px;
+    height: 1px;
+    background: #8B8B8B;
+    margin-right: 18px;
+}
+
+h1 {
+    width: 636px;
+    height: 180px;
+    font-family: 'Gilroy';
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 60px;
+    color: #313131;
+}
+
+.description {
+    width: 521px;
+    height: 90px;
+    margin-top: 30px;
+    font-family: 'Gilroy';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #313131;
+}
+
+.btn-reg, .btn-watch-video {
+    width: 270px;
+    height: 80px;
+    margin-top: 50px;
+    border-radius: 371px;
+}
+
+.btn-reg {
+    background: #8B63FF;
+    margin-right: 26px;
+}
+
+.btn-watch-video {
+    background: #FFDD64;
+}
+
+.btn-reg span, .btn-watch-video span {
+    height: 44px;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 44px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.btn-reg span {
+    color: #FFFFFF;
+}
+
+.btn-watch-video span {
+    color: #5F501C;
+}
+
+
+.level-study {
+    position: relative;
+    right: 67px;
+}
+.personal-instruction {
+    width: 198px;
+    height: 125px;
+    margin-top: 62px;
+    background: #FFFFFF;
+    box-shadow: 0 4px 10px rgba(193, 200, 217, 0.35);
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-personal-instruction {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 198px;
+    height: 125px;
+    background: #FFFFFF;
+    border-radius: 15px;
+}
+
+.img-hand {
+    position: relative;
+    left: 30px; /*334px;*/
+    top: 30px;
+    width: 67px;
+    height: auto;
+    right: 34px;
+    transform: rotate(-18.54deg);
+}
+
+
+
+.personal-instruction__icon {
+    width: 24px;
+    height: 24px;
+    border: #EDE7FF 20px solid;
+    background: #EDE7FF;
+    border-radius: 10px;
+    margin: 21px 75px 0 75px;
+}
+
+.name-btn {
+    margin: auto;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    color: #313131;
+}
+
+.photo_mentor {
+    /*position: relative;*/
+    /*right: 67px;*/
+    margin: 125px 0 0 35px;
+    width: 469px;
+    height: 628px;
+    border-radius: 25px;
+}
+
+.statistics-company {
+    position: relative;
+    width: 1166px;
+    height: 212px;
+    margin-top: 80px;
+    background: #8B63FF;
+    border-radius: 25px;
+}
+
+.success-students, .success-cases, .good-reviews, .curators {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.statistics-company span {
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.statistics {
+    padding-bottom: 26px;
+    width: 106px;
+    height: 30px;
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 30px;
+}
+
+.text {
+    width: 226px;
+    height: 52px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.decoration-ball {
+    position: relative;
+    top: 53px;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background: #FFDD64;
+}
