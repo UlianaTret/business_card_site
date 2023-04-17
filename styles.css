@@ -4,7 +4,7 @@
 }
 
 html, button, span {
-    font-family: Gilroy, Serif;
+    font-family: 'Gilroy', Serif;
 }
 
 button {
@@ -74,7 +74,6 @@ li {
 }
 
 .middle-menu .button span {
-    font-family: 'Gilroy';
     font-weight: 400;
     font-size: 18px;
     line-height: 30px;
@@ -137,7 +136,6 @@ li {
 h1 {
     width: 636px;
     height: 180px;
-    font-family: 'Gilroy';
     font-weight: 600;
     font-size: 48px;
     line-height: 60px;
@@ -148,7 +146,6 @@ h1 {
     width: 521px;
     height: 90px;
     margin-top: 30px;
-    font-family: 'Gilroy';
     font-weight: 400;
     font-size: 18px;
     line-height: 30px;
@@ -193,6 +190,7 @@ h1 {
     position: relative;
     right: 67px;
 }
+
 .personal-instruction {
     width: 198px;
     height: 125px;
@@ -216,15 +214,13 @@ h1 {
 
 .img-hand {
     position: relative;
-    left: 30px; /*334px;*/
+    left: 30px;
     top: 30px;
     width: 67px;
     height: auto;
     right: 34px;
     transform: rotate(-18.54deg);
 }
-
-
 
 .personal-instruction__icon {
     width: 24px;
@@ -245,8 +241,6 @@ h1 {
 }
 
 .photo_mentor {
-    /*position: relative;*/
-    /*right: 67px;*/
     margin: 125px 0 0 35px;
     width: 469px;
     height: 628px;
